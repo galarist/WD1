@@ -264,7 +264,7 @@ footer {
     }
 
     .inlineList {
-        padding: 15px 4px;#toggle
+        padding: 15px 4px;
         display: block;
         margin: 0 auto;
     }
@@ -320,13 +320,8 @@ label, #toggle {
   }
 
   #toggle:checked ~ nav a {
-    display: block;
     height: 60px;
     margin: 0
-  }
-
-  #toggle:checked ~ nav a:hover {
-
   }
 }
 
