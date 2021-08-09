@@ -47,7 +47,6 @@ header {
   height: 80px;
   line-height: 80px;
   text-align: center;
-  vertical-align: middle;
 }
 
 header img {
@@ -151,20 +150,19 @@ article {
   overflow: auto;
 }
 
-main {
+article div {
   margin: 0 auto;
   text-align: center;
   width: 96%;
 }
 
-summary {
+aside div {
   margin: 0 auto;
   height: 96%;
 }
 
 aside {
   padding: 0 8px;
-  align-self: center;
   margin-top: 20vh
 }
 
@@ -172,20 +170,19 @@ aside P {
   margin: 10px 0;
 }
 
-div {
-  align-self: auto;
+aside div div {
   text-align: center;
   padding: 15px 10px;
   max-width: 330px;
   display: inline-block;
 }
 
-div p {
+aside div div p {
   text-align: center;
   color: #3f3d41;
 }
 
-div p i {
+aside div div p i {
   font-size: 6em;
 }
 
@@ -209,7 +206,6 @@ footer {
 footer img {
   margin-top: 8px;
   width: 80px;
-  align-self: flex-start;
 }
 
 figure {
@@ -259,7 +255,7 @@ figure {
     margin: 0;
   }
 
-  main {
+  article div {
     border: 0;
     margin-top: 0;
     text-align: center;
@@ -268,21 +264,21 @@ figure {
 }
 
 @media screen and (max-width: 950px) {
-  summary {
+  aside div {
     display: block;
   }
 
-  main {
+  article div {
     border: 0;
   }
 
-  div {
+  aside div div {
     padding: 15px 4px;
     display: block;
     margin: 0 auto;
   }
 
-  div p i {
+  aside div div p i {
     font-size: 4em;
   }
 
@@ -353,7 +349,7 @@ figure {
 }
 
 @media screen and (max-height: 700px) {
-  main {
-    margin-top: 15vh;
+  article div {
+    margin-top: 0vh;
   }
 }
