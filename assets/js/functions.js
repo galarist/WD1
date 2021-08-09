@@ -17,7 +17,7 @@ function about() {
 function donate() {
   document.getElementsByTagName('a')[2].style.color = null;
   document.getElementsByTagName('a')[3].style.color = null;
-  document.getElementsByTagName('a')[4].style.color = "#94c207";
+  document.getElementsByTagName('a')[4].style.color = "#f8f8f8";
   document.getElementsByTagName('a')[5].style.color = null;
   return false;
 }
