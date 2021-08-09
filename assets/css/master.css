@@ -1,289 +1,288 @@
 * {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #f8f8f8;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0 auto;
-    max-width: 100%;
-}
-
-header {
-    background-color: teal;
-    top: 0;
-    position: fixed;
-    text-align: center;
-    z-index: 1;
-    width: 100%;
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
-    vertical-align: middle;
-}
-
-header img {
-    float: left;
-    width: 80px;
-    margin-left: 14px;
+  background-color: #f8f8f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 nav {
-    float: right;
+  float: right;
 }
 
 nav a {
-    text-decoration: none;
-    color: #f8f8f8;
-    font-size: 14pt;
-    font-weight: 800;
-    margin: 0 14px;
+  text-decoration: none;
+  color: #f8f8f8;
+  font-size: 14pt;
+  font-weight: 800;
+  margin: 0 14px;
 }
 
 nav a:hover {
   color: #94c207;
 }
 
-.active {
-    color: #94c207;
+header {
+  background-color: teal;
+  top: 0;
+  position: fixed;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+header img {
+  float: left;
+  width: 80px;
+  margin-left: 14px;
 }
 
 h2 {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 1.9em;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.9em;
 }
 
 h3 {
-    margin: 15px 0;
-    font-size: 1.5em;
-    text-align: center;
+  margin: 15px 0;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 h3 i {
-    color: green;
+  color: green;
 }
 
 hr {
   border: 1px solid teal
 }
 
+
+label,
+input[type='checkbox'] {
+  display: none;
+}
+
 section:nth-of-type(1) {
-    background-image: url(../img/rocks.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    margin-top: 50px;
+  background-image: url(../img/rocks.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 50px;
 }
 
 section:nth-of-type(2) {
-    background-image: url(../img/hands.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    filter: blur(3px);
+  background-image: url(../img/hands.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  filter: blur(3px);
 }
 
 section:nth-of-type(3) {
-    background-image: url(../img/tree.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    filter: blur(3px);
+  background-image: url(../img/tree.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  filter: blur(3px);
 }
 
 section:nth-of-type(4) {
-    background-image: url(../img/pattern.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    filter: blur(3px);
+  background-image: url(../img/pattern.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  filter: blur(3px);
 }
 
 section h2 {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    font-weight: bold;
-    padding: 80px 0;
-    margin-top: 30vh;
-    display: inline-block;
-    width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-weight: bold;
+  padding: 80px 0;
+  margin-top: 30vh;
+  display: inline-block;
+  width: 100%;
 }
 
 article {
-    background-color: #b0f2ee;
-    border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-    height: 100vh;
-    overflow: auto;
+  background-color: #b0f2ee;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  height: 100vh;
+  overflow: auto;
 }
 
-.container {
-    margin: 0 auto;
-    text-align: center;
-    width: 96%;
-    margin-top: 28vh;
+main {
+  margin: 0 auto;
+  text-align: center;
+  width: 96%;
 }
 
-.innerContainer {
-    margin: 0 auto;
-    height: 96%;
+summary {
+  margin: 0 auto;
+  height: 96%;
 }
 
-.inlineList {
-    align-self: auto;
-    text-align: center;
-    padding: 15px 10px;
-    max-width: 330px;
-    display: inline-block;
+aside {
+  padding: 0 8px;
+  align-self: center;
+  margin-top: 20vh
 }
 
-.inlineList p {
-    text-align: center;
-    color: #3f3d41;
+aside P {
+  margin: 10px 0;
 }
 
-.inlineList p i {
-    font-size: 6em;
+div {
+  align-self: auto;
+  text-align: center;
+  padding: 15px 10px;
+  max-width: 330px;
+  display: inline-block;
 }
 
-.innerBox {
-    padding: 0 8px;
-    align-self: center;
-    font-size: 18px;
+div p {
+  text-align: center;
+  color: #3f3d41;
 }
 
-.innerBox P {
-    margin: 10px 0;
+div p i {
+  font-size: 6em;
 }
 
 footer {
-    color: #f8f8f8;
-    background-color: teal;
-    padding: 0 32px;
-    font-size: 14pt;
-    font-weight: 800;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-    background-image: url(../img/pattern.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  color: #f8f8f8;
+  background-color: teal;
+  padding: 0 32px;
+  font-size: 14pt;
+  font-weight: 800;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  background-image: url(../img/pattern.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-#logo {
-    margin-top: 8px;
+footer img {
+  margin-top: 8px;
+  width: 80px;
+  align-self: flex-start;
 }
 
-#logo img {
-    width: 80px;
-    align-self: flex-start;
-}
-
-#copy {
-    margin-bottom: 8px;
+figure {
+  margin-bottom: 8px;
 }
 
 @media print {
-    @page {
-        size: A3 landscape !important;
-        background-color: #f8f8f8;
-    }
+  @page {
+    size: A3 landscape !important;
+    background-color: #f8f8f8;
+  }
 
-    html,
-    body {
-        min-width: 594mm;
-        max-height: 841mm;
-        background-color: transparent;
-    }
+  html,
+  body {
+    min-width: 594mm;
+    max-height: 841mm;
+    background-color: transparent;
+  }
 
-    article,
-    .innerBox {
-        padding: 0;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+  article,
+  aside {
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0vh;
+    font-size: 1.23vw;
+  }
 
-    article:nth-of-type(1) {
-        padding-top: 80px;
-    }
+  article:nth-of-type(1) {
+    padding-top: 80px;
+  }
 
-    article {
-        height: 100%;
-        box-shadow: none;
-        padding: 18px 0;
-    }
+  article {
+    height: 100%;
+    box-shadow: none;
+    padding: 18px 0;
+  }
 
-    footer,
-    header,
-    section {
-        box-shadow: none;
-        display: none !important;
-    }
+  footer,
+  header,
+  section {
+    box-shadow: none;
+    display: none !important;
+  }
 
-    h3 {
-        margin: 0;
-    }
+  h3 {
+    margin: 0;
+  }
 
-    .container {
-        border: 0;
-        margin-top: 0;
-        text-align: center;
-        width: 80%;
-    }
+  main {
+    border: 0;
+    margin-top: 0;
+    text-align: center;
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 950px) {
-    .innerContainer {
-        display: block;
-    }
+  summary {
+    display: block;
+  }
 
-    .container {
-        border: 0;
-    }
+  main {
+    border: 0;
+  }
 
-    .inlineList {
-        padding: 15px 4px;
-        display: block;
-        margin: 0 auto;
-    }
+  div {
+    padding: 15px 4px;
+    display: block;
+    margin: 0 auto;
+  }
 
-    .inlineList p i {
-        font-size: 4em;
-    }
+  div p i {
+    font-size: 4em;
+  }
 
-    .innerBox {
-        padding: 0;
-    }
-}
+  aside {
+    padding: 0;
+    margin-top: 12vh;
 
-label, #toggle {
-  display: none;
+    font-size: 3vw;
+  }
 }
 
 @media screen and (max-width: 570px) {
@@ -310,33 +309,39 @@ label, #toggle {
     font-weight: 800;
     width: 100px;
     text-align: center;
-    -webkit-touch-callout: none; /* iOS Safari */
-        -webkit-user-select: none; /* Safari */
-         -khtml-user-select: none; /* Konqueror HTML */
-           -moz-user-select: none; /* Old versions of Firefox */
-            -ms-user-select: none; /* Internet Explorer/Edge */
-                user-select: none; /* Non-prefixed version, currently
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
                                       supported by Chrome, Edge, Opera and Firefox */
   }
 
-  #toggle:checked ~ nav {
+  input[type='checkbox']:checked~nav {
     visibility: visible;
   }
 
-  #toggle:checked ~ nav a {
+  input[type='checkbox']:checked~nav a {
     height: 60px;
     margin: 0
   }
 }
 
 @media screen and (min-width: 920px) {
-    .innerBox {
-        padding: 0 40px;
-    }
+  aside {
+    padding: 0 40px;
+  }
 }
 
 @media screen and (max-height: 700px) {
-    .container {
-        margin-top: 22vh;
-    }
+  main {
+    margin-top: 15vh;
+  }
 }
